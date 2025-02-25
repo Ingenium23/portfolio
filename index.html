@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio - John Doe</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f9;
+            }
+
+            header {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .intro {
+                text-align: center;
+                padding: 50px 20px;
+            }
+
+            .intro h1 {
+                font-size: 3rem;
+                margin-bottom: 10px;
+            }
+
+            .intro p {
+                font-size: 1.2rem;
+                color: #555;
+            }
+
+            .projects,
+            .skills,
+            .contact {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            .project,
+            .skill,
+            .contact-item {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 30%;
+                min-width: 280px;
+                text-align: center;
+            }
+
+            .project img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px 20px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>John Doe's Portfolio</h1>
+        </header>
+
+        <div class="container">
+            <!-- Introduction Section -->
+            <section class="intro">
+                <h1>Welcome to My Portfolio</h1>
+                <p>
+                    Hi, I'm John Doe, a passionate web developer with a focus on
+                    building innovative and user-friendly websites. Explore my
+                    work and skills below!
+                </p>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project 1"
+                    />
+                    <h3>Project 1</h3>
+                    <p>
+                        A brief description of the first project. Click to see
+                        more.
+                    </p>
+                </div>
+                <div class="project">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project 2"
+                    />
+                    <h3>Project 2</h3>
+                    <p>
+                        A brief description of the second project. Click to see
+                        more.
+                    </p>
+                </div>
+                <div class="project">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project 3"
+                    />
+                    <h3>Project 3</h3>
+                    <p>
+                        A brief description of the third project. Click to see
+                        more.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>
+                        Advanced knowledge of HTML for creating well-structured
+                        web pages.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>
+                        Experienced in CSS for designing visually appealing and
+                        responsive layouts.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>
+                        Proficient in JavaScript for adding interactive features
+                        to websites.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>john.doe@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <p>
+                        <a
+                            href="https://www.linkedin.com/in/johndoe"
+                            target="_blank"
+                            >linkedin.com/in/johndoe</a
+                        >
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <p>
+                        <a href="https://github.com/johndoe" target="_blank"
+                            >github.com/johndoe</a
+                        >
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 John Doe</p>
+        </footer>
+    </body>
+</html>
